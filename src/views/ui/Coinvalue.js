@@ -90,8 +90,8 @@ const Coinvalue = () => {
             backgroundColor: isInputChanged ? "#2962ff" : "gray", 
             color: isInputChanged ? "white" : "black", 
             opacity: isInputChanged ? "100%" : "30%", 
-            
-            marginLeft:"10px"
+            marginLeft:"60px",
+            marginTop:"10px"
           }} disabled={!isInputChanged || !inputValue }
           >Update Value</button>
         </div>
